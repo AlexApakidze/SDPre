@@ -19,7 +19,7 @@ public class Objective9Lab5 {
 			printMenu();
 			System.out.print("Which would you like to do? ");
 			choice = kb.nextInt();
-
+			kb.nextLine();
 			switch (choice) {
 
 			case 1:
